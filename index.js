@@ -166,12 +166,6 @@ run().catch(console.dir);
 
 
 
-
-
-
-
-
-
 app.get('/', (req, res) => {
     res.send('MOTOLAND-MONGO-SERVER is RUNNING.');
 })
